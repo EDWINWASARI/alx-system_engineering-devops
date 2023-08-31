@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod mode file
+chmod u+rwx,go-rwx hello

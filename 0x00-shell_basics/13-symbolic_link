@@ -1,4 +1,2 @@
 #!/bin/bash
-
-ls -1A
 ln -s /bin/ls __ls__

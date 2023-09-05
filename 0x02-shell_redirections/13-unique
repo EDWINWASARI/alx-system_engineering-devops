@@ -1,0 +1,3 @@
+#!/bin/bash
+sort input.txt | uniq -c | awk '$1 == 1 {print $2}'
+

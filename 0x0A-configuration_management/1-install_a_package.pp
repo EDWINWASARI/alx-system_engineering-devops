@@ -1,5 +1,5 @@
-# Kill process named killmenow
-exec { 'pkill_killmenow':
-  command  => 'pkill killmenow',
-  provider => shell,
+# install puppet-lint -v 2.5.0
+
+exec { 'puppet-lint':
+  command => '/usr/bin/apt-get -y install puppet-lint -v 2.5.0',
 }
